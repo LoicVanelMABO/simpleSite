@@ -11,3 +11,17 @@
     display: inline-block;
     margin-left: 20px ;
 }
+
+/*responsive part*/
+@media (max-width:600px) {
+    .footer{
+        text-align: center;
+        display: block;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
+}
