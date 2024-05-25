@@ -6,10 +6,10 @@ import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
 
-import { BsSuitHeartFill  } from "react-icons/bs";
-import { AiFillHeart } from "react-icons/ai";
+// import { BsSuitHeartFill  } from "react-icons/bs";
+// import { AiFillHeart } from "react-icons/ai";
 import { FcLike } from "react-icons/fc";
-
+// https://react-icons.github.io/react-icons/icons/fc/
 
 const Contact = () => {
     const Access_key = "fd48910f-0c92-4bff-97b1-78655b8ee2cc"
@@ -41,10 +41,6 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className="contact-col">
-        
-        <BsSuitHeartFill className='kkkk'/>
-        <AiFillHeart className='kkkk' />
-        <FcLike/>
         <h3>Envoyez Nous un message <img src={msg_icon} alt="" /> </h3>
         <p>
         De tout temps, l'homme a tenté de comprendre puis de reproduire l'extraordinaire 
