@@ -12,7 +12,6 @@ import { FcLike } from "react-icons/fc";
 // https://react-icons.github.io/react-icons/icons/fc/
 
 const Contact = () => {
-    const Access_key = "fd48910f-0c92-4bff-97b1-78655b8ee2cc"
     const [result, setResult] = React.useState("");
 
     const onSubmit = async (event) => {
